@@ -1,6 +1,6 @@
 ---
 - name: Analysis
-  hosts: all
+  hosts: ALL_rhel
   strategy: free
   gather_facts: true
   become: true
